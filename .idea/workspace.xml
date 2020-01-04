@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f1c6790b-f25e-4399-aee9-f97dc0870267" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VvHB3uY5TC5hSWBop6V7trTHcF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1c6790b-f25e-4399-aee9-f97dc0870267" name="Default Changelist" comment="" />
+      <created>1578126509701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578126509701</updated>
+      <workItem from="1578126511053" duration="4060000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="363" y="201" width="679" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578127381038">
+      <screen x="49" y="27" width="1317" height="741" />
+    </state>
+    <state x="363" y="201" width="679" height="390" key="#com.intellij.fileTypes.FileTypeChooser/49.27.1317.741@49.27.1317.741" timestamp="1578127381038" />
+    <state x="371" y="59" width="662" height="675" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578127355348">
+      <screen x="49" y="27" width="1317" height="741" />
+    </state>
+    <state x="371" y="59" width="662" height="675" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/49.27.1317.741@49.27.1317.741" timestamp="1578127355348" />
+    <state x="371" y="175" key="run.anything.popup" timestamp="1578127983576">
+      <screen x="49" y="27" width="1317" height="741" />
+    </state>
+    <state x="371" y="175" key="run.anything.popup/49.27.1317.741@49.27.1317.741" timestamp="1578127983576" />
+  </component>
+</project>
