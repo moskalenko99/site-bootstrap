@@ -52,6 +52,7 @@ ul, li{
 }
 
 .button {
+    text-transform: uppercase;
     cursor: pointer;
     padding: 10px 25px;
     margin: 0 10px;
@@ -155,4 +156,16 @@ ul, li{
 
 .button-services:hover {
     cursor: pointer;
+}
+
+/*Портфолио*/
+
+.portfolio {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 135px;
+}
+
+.portfolio button:hover {
+    color: black;
 }
