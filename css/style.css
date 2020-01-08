@@ -67,13 +67,6 @@ ul, li{
     border: 2px solid white;
 }
 
-.button_empty:hover,
-.button_full:hover {
-    border: 1px dotted white;
-    background: #04574e;
-    cursor: pointer;
-}
-
 /*О нас*/
 
 .about {
@@ -168,4 +161,12 @@ ul, li{
 
 .portfolio button:hover {
     color: black;
+}
+
+.portfolio  img{
+    margin-bottom: 30px;
+}
+
+.filter{
+    padding: 120px 0;
 }

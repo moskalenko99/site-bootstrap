@@ -99,7 +99,7 @@ lazyRequireTask('pug', './gulp/tasks/pug', {
 ----------------------------------------*/
 //sass
 lazyRequireTask('sass', './gulp/tasks/sass', {
-	src: 'src/**/*.scss',
+	src: 'src/**/*.sass',
 	dest: './build',
 });
 
@@ -109,9 +109,9 @@ lazyRequireTask('sass', './gulp/tasks/sass', {
 ----------------------------------------*/
 
 lazyRequireTask('js', './gulp/tasks/js', {
-	src: paths.js.app,
-	dest: paths.js.dest,
-	minDest: paths.js.dest
+	src: 'src/**/*.js',
+	dest: './build',
+	minDest: './build',
 });
 
 
@@ -195,7 +195,7 @@ gulp.task('copy', function () {
 
 gulp.task('watch', function () {
 		// sass
-	gulp.watch('src/sass/**/*.scss', ['sass']);
+	gulp.watch('src/sass/**/*.sass', ['sass']);
 	// html
 	// gulp.watch(['src/html/**/*.html'], ['watch-html']);
 	gulp.watch(['src/pug/**/*.pug'], ['watch-html']);
