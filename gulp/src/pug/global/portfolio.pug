@@ -1,0 +1,31 @@
+include variables
+
+section.portfolio
+    .container
+        .row.justify-content-center
+            .col-xl-8
+                h2.about__title Latest Works
+                p.about__text Lorem ipsum dolor sit amet, consectetur adipisicing elit. A assumenda id laboriosam saepe voluptate. Accusantium!
+                button(val="on" class="button" filter='all') All
+                each val, index in portfolio_button
+                    button(val="off" class="button" filter=portfolio_button_filter[index])= val
+        .row.filter
+                each val, index in portfolio_h5
+                    if portfolio_button_filter[index] == 'wd'
+                        div(class="col-xl-4" filter=portfolio_button_filter[0])
+                            img(src="images/" + portfolio_image[index] + ".png" alt= portfolio_image[index])
+                            .text
+                                h5 #{portfolio_h5[index]}
+                                p #{portfolio_text[index]}
+                    else if portfolio_button_filter[index] == 'ud'
+                        div(class="col-xl-4" filter=portfolio_button_filter[4])
+                            img(src="images/" + portfolio_image[index] + ".png" alt= portfolio_image[index])
+                            .text
+                                h5 #{portfolio_h5[index]}
+                                p #{portfolio_text[index]}
+                    else
+                        div(class="col-xl-4" filter=portfolio_button_filter[1])
+                            img(src="images/" + portfolio_image[index] + ".png" alt= portfolio_image[index])
+                            .text
+                                h5 #{portfolio_h5[index]}
+                                p #{portfolio_text[index]}

@@ -1,0 +1,20 @@
+include variables
+
+section.team
+    .container
+        .row.justify-content-center
+            .col-xl-8
+                h2.about__title Our Team Member
+                p.about__text Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+        .row.multiple-items.justify-content-center
+            each val, index in team_name
+                .col-xl-4
+                    img(src="images/" + team_image[index] + ".png" alt= team_image[index])
+                    h4= val
+                    p= team_position[index]
+                    .icons
+                    each icon, i in team_icons
+                            a(href="#")
+                                span.fa-stack.fa-2x
+                                    i.fas.fa-square.fa-stack-2x
+                                    i(class="fab fa-" + team_icons[i] + " fa-stack-1x fa-inverse")

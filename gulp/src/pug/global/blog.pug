@@ -1,0 +1,24 @@
+include variables
+
+section.services#blog
+    .container
+        .row.justify-content-center
+            .col-xl-8
+                h2.about__title Blog
+                p.ablout__text Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+        each val, index in blog_image
+            div(class="row " + blog[index] + " justify-content-between")
+                .blog-item
+                    img(src="images/" + val + ".png" alt= val class="img-fluid")
+                .blog-item
+                    .blog
+                        a(href="#") SEO Quis Vestibulum
+                        div
+                            span 
+                                i.far.fa-calendar-alt 14.07.2017
+                            span 
+                                i.far.fa-file Development
+                        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum placeat mollitia, exercitationem commodi perspiciatis asperiores modi consectetur quas sequi tenetur!
+        .row
+            .col-xl-12
+                button.button_blog More View
